@@ -1,9 +1,9 @@
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <p>React Admin Dashboard</p>
     </div>
   );
-}
+};
 
 export default App;
