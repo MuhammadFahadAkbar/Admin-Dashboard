@@ -4,7 +4,7 @@ import Topbar from "./pages/global/Topbar";
 import Sidebar from "./pages/global/Sidebar";
 import Dashboard from "./pages/dashboard";
 import Team from "./pages/team";
-// import Contacts from "./pages/global/contacts";
+import Contacts from "./pages/contacts";
 // import Invoices from "./pages/global/invoices";
 // import Form from "./pages/global/form";
 // import Calendar from "./pages/global/calendar";
@@ -29,7 +29,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
-              {/* <Route path="/contacts" element={<Contacts />} /> */}
+              <Route path="/contacts" element={<Contacts />} />
               {/* <Route path="/invoices" element={<Invoices />} /> */}
               {/* <Route path="/form" element={<Form />} /> */}
               {/* <Route path="/calendar" element={<Calendar />} /> */}
