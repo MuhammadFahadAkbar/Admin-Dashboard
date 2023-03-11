@@ -1,8 +1,8 @@
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import Topbar from "./pages/global/Topbar";
-import Sidebar from "./pages/global/sidebar";
-import Dashboard from "./pages/global/dashboard";
+import Sidebar from "./pages/global/Sidebar";
+import Dashboard from "./pages/dashboard";
 // import Team from "./pages/global/team";
 // import Contacts from "./pages/global/contacts";
 // import Invoices from "./pages/global/invoices";
@@ -23,6 +23,7 @@ const App = () => {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
+          <Sidebar />
           <main className="content">
             <Topbar />
             <Routes>
