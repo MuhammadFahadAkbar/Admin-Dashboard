@@ -7,7 +7,7 @@ import Team from "./pages/team";
 import Contacts from "./pages/contacts";
 import Invoices from "./pages/invoices";
 import Form from "./pages/form";
-// import Calendar from "./pages/global/calendar";
+import Calendar from "./pages/calendar";
 // import FAQ from "./pages/global/faq";
 // import Bar from "./pages/global/bar";
 // import Pie from "./pages/global/pie";
@@ -32,7 +32,7 @@ const App = () => {
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
-              {/* <Route path="/calendar" element={<Calendar />} /> */}
+              <Route path="/calendar" element={<Calendar />} />
               {/* <Route path="/faq" element={<FAQ />} /> */}
               {/* <Route path="/bar" element={<Bar />} /> */}
               {/* <Route path="/pie" element={<Pie />} /> */}
