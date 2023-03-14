@@ -11,7 +11,7 @@ import Calendar from "./pages/calendar";
 import FAQ from "./pages/faq";
 import Bar from "./pages/bar";
 import Pie from "./pages/pie";
-// import Line from "./pages/global/line";
+import Line from "./pages/line";
 // import Geography from "./pages/global/geography";
 import { Routes, Route } from "react-router-dom";
 
@@ -36,7 +36,7 @@ const App = () => {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
-              {/* <Route path="/line" element={<Line />} /> */}
+              <Route path="/line" element={<Line />} />
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
           </main>
